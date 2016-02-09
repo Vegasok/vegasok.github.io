@@ -161,7 +161,7 @@ a{
 
 .banner {
     position: relative;
-    /*height: 560px;*/
+    overflow: hidden;
     text-align: center;
 }
 
