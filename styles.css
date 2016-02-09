@@ -1022,7 +1022,46 @@ footer p span a:hover{
         padding-bottom: 30px;
     }
 
-    
+    .content{
+        margin-top: 30px;
+    }
+
+    .content-image figure{
+        display: none;
+    }
+
+    .content-header {
+        width: 100%;
+    }
+
+    .content-text {
+        width: 100%;
+    }
+
+    .content-text a {   
+        padding: 5px 10px;
+        font-size: 15px;
+        display: block;
+        text-align: center;        
+    }
+
+    .content-text p{
+        margin-bottom: 10px;
+    }
+
+    .content-header h1,h3,h4{
+        text-align: center;
+    }
+    .content-header h3{
+       padding: 10px 0;
+    }
+
+    .content-header h4{
+        margin-bottom: 15px;
+    }
+    .content-header h4:first-child{
+        margin:0;
+    }
 
 }
 
