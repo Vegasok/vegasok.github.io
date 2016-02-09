@@ -167,11 +167,7 @@ a{
 
 .slider{
     text-align: center;
-   /* position: absolute;*/
-    /*z-index: 10;*/
-    height: 100%;
-   /* top: 0;
-    left: 0;*/
+    height: 100%;   
     width: 100%;
 }
 
@@ -196,7 +192,6 @@ a{
     display: block;
     max-width: 100%;
     height: 560px;
-
 }
 
 .arrows{
@@ -249,7 +244,7 @@ a{
     color: #e7e7e7;
 }
 
-.icon{
+/*.icon{
     overflow:hidden;
     display:inline-block;
     position:relative;
@@ -280,7 +275,7 @@ a{
     margin-left: 26px;
     font-size: 28px;
     color: #fff;
-}
+}*/
 
 .content_sections{
     background-color: #e7e7e7;
@@ -1011,6 +1006,23 @@ footer p span a:hover{
     }
 
 
+    /*SECTION*/
+
+    .section {
+        width: 100%;   
+        
+    }
+
+    .section p{
+        margin-top: 10px;
+    }
+
+    .advantages-preview {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    
 
 }
 
