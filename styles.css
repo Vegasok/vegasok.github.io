@@ -1047,22 +1047,22 @@ footer p span a:hover{
 
     .content-text p{
         margin-bottom: 10px;
+        text-align: center;
     }
 
     .content-header h1,h3,h4{
         text-align: center;
     }
     .content-header h3{
-       padding: 10px 0;
+        padding: 10px 0;
+        margin-bottom: 0;
     }
 
     .content-header h4{
-        margin-bottom: 15px;
+        
     }
-    .content-header h4:first-child{
-        margin:0;
-    }
-
+        
+    
 }
 
 
