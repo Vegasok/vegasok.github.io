@@ -1123,20 +1123,7 @@ footer p span a:hover{
         text-align: center;
     }
 
-    /*.contacts h3{
-        text-align: center;
-    }
-    .contacts h3 i{
-        font-size: 21px;
-        font-weight: 100;
-        color: #202628;
-    }
-    .contacts p{
-        font-family: Lato;
-        font-size: 14px;
-        font-weight: 100;
-        color: #7f8587;
-    }*/
+    
 
     .contacts figure{
         width: 100%;
@@ -1150,14 +1137,8 @@ footer p span a:hover{
     }
 
     .middle{
-        margin: auto 10px;
+        margin: auto 0px;
     }
-    .contacts form{
-        background-color: #e7e7e7;
-        border-radius: 10px;
-        padding: 40px 30px;
-
-    }    
 
     .last-column{
         margin: 0 ;
