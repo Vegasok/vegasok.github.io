@@ -1096,18 +1096,18 @@ footer p span a:hover{
         text-align: center;
     }
     .panel input{
-        width: 50%;
-       
+        display: block;
+        margin: 0 auto;
+        width: 70%;               
     }
     
     #panel-btn {
-        width: 20%;             
-        font-size: 75%;        
+        width: auto;          
+        /*font-size: 75%;*/  
+        margin-top: 15px;      
     }
 
-    .last-div-panel form i{
-        display: none;
-    }
+    
        
     
 }
