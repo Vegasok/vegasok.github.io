@@ -922,11 +922,10 @@ footer p span a:hover{
     }
 
     .container {
-    padding: 0;   
-    margin: 0 auto;
-    width: 90%
-}
-    
+        padding: 0;   
+        margin: 0 auto;
+        width: 90%
+    }   
 
     .mainHeader nav { margin: 0; }
 
@@ -1191,7 +1190,133 @@ footer p span a:hover{
     #map-canvas {        
         width: 94%;        
     }
-    
+
+    /*FOOTER*/
+
+    footer{
+        background-color: #202628;
+        padding: 25px 0;
+    }
+
+    footer nav ul{
+        padding: 0;
+        list-style: none;
+
+    }
+
+    footer nav ul li{
+        display: inline-block;
+        margin-left: 10px;
+    }
+    footer nav ul li:first-child{
+        margin-left: 0;
+    }
+
+    footer nav ul li:not(:last-child):after{
+        content: '/';
+        display: inline-block;
+        margin-left: 10px;
+        color: #515759;
+    }
+
+    footer nav ul li a{
+        font-size: 14px;
+        text-decoration: none;
+        color: #e7e7e7;
+    }
+
+    footer nav ul li a:hover{
+        color: #e84c3d;
+    }
+
+    footer p{
+        color: #6b7173;
+        font-size: 14px;
+    }
+
+    footer p a{
+         color: #6b7173;
+         font-size: 14px;
+    }
+
+    footer p a:hover{
+        color: #fff;
+    }
+
+    footer p span{
+        color: #e84c3d;
+        font-size: 14px;
+    }
+
+    footer p span a{
+        color: #e84c3d;
+        font-size: 14px;
+    }
+
+    footer p span a:hover{
+        color: #e81c0c;
+    }
+
+    .footer-icons{
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+
+    .footer-icons li{
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+    .footer-icons li a{
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .footer-icons li div:hover{
+        color: #e7e7e7;
+        background: #E63726;
+        transform: scale(1.1);
+        transition: all .3s ease-in;
+    }
+
+    .footer-ic{
+        background-color: #e84c3d;
+        margin: 0 5px;
+        width: 42px;
+        height: 42px;
+        display: block;
+        border-radius: 50px;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        font-size: 20px;
+        color: #fff;
+        line-height: 42px;
+        text-align: center;
+    }
+    .container_footer{
+        width: 100%;
+    }
+
+    .footer-first-block{
+        width: 100%;
+        float: none;
+    }
+
+    .footer-last-block{
+        float: none;
+    }
+
+    .footer::after {
+        content: '';
+        display: block;
+        clear: both;
+        visibility: hidden;
+        height: 0;
+    }
+
+   
+
 }
 
 
