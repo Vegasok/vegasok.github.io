@@ -29,8 +29,6 @@ a{
   height: 0;
 }
 
-
-
 .mainHeader{
     height: auto;
     background-color: #202628;
@@ -89,45 +87,6 @@ a{
     display: none;
 }
 
-/*.mainHeader span{
-    line-height: 80px;
-}
-
-.mainHeader span a{
-    color: #e7e7e7;
-    font-size: 21px;
-    text-decoration: none;
-}
-
-.mainHeader nav{
-    float: right;
-}
-
-.mainHeader nav ul{
-    list-style: none;
-    margin: 0 auto;
-    font-size: 0;
-}
-
-.mainHeader nav ul li{
-    display: inline-block;
-}
-
-.mainHeader nav a:link, .mainHeader nav a:visited {
-    color: #e7e7e7;
-    display: inline-block;
-    padding: 33px 23px;
-    text-decoration: none;
-    font-size: 11px;
-}
-
-.mainHeader nav a:hover, .mainHeader nav a:active,
-.mainHeader nav .active a:link, .mainHeader nav .active a:visited{
-    background-color: #e84c3d;
-}*/
-
-
-
 .circle:hover{
     color: #fff;
 }
@@ -180,12 +139,8 @@ a{
 
 .slide figure{
     display: block;
-    margin: 0;
-   /* position: absolute;
-    left:0;*/
-    width: 100%;
-   /* top: 0;
-    height: 100%;*/
+    margin: 0;   
+    width: 100%;   
 }
 
 .slide figure img{
@@ -212,6 +167,7 @@ a{
     height:70px;
 
 }
+
 .circle:before{
     content:"";
     position:absolute;
@@ -243,39 +199,6 @@ a{
 .circle i:hover{
     color: #e7e7e7;
 }
-
-/*.icon{
-    overflow:hidden;
-    display:inline-block;
-    position:relative;
-    height:70px;
-    float: left;
-    line-height: 277px;
-}
-
-.icon:before{
-    content:"";
-    position:absolute;
-    top:0;
-    bottom:0;
-    width:70px;
-    border-radius:100%;
-    background:#e84c3d;
-}
-
-.c2{
-    width:140px;
-}
-
-.icon i{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -11px;
-    margin-left: 26px;
-    font-size: 28px;
-    color: #fff;
-}*/
 
 .content_sections{
     background-color: #e7e7e7;
@@ -309,33 +232,18 @@ a{
     color: #fff;
     line-height: 70px;
     text-align: center;
-    background-color: #e84c3d;
-    /*НУЖНО РЕДАКТИРОВАТЬ!!!!!1*/
+    background-color: #e84c3d;   
 }
+
 .section-icon:hover{
-
-
-    /* ploho*/
-    /*font-size: 42px;
-    width: 80px;
-    height: 80px;
-    line-height: 80px;*/
-
-
-  /* horosho, po4itat pro transition i trasformi*/
   color: #e7e7e7;
   background: #E63726;
   transform: scale(1.1);
   transition: all .3s ease-in;
-
-
-    /* ne nado 2 raza ukazivat text-align esli on est uje bez hovera*/
-    /*text-align: center;*/
 }
 
 .section-info {
   overflow: hidden;
-  /*padding-left: 95px;*/
 }
 
 .section h1{
@@ -359,11 +267,7 @@ a{
 }
 
 .section p a:hover{
-  /* na hover menyem cvet ili svetlee ili temnee*/
     color: #E63726;
-
-    /* nikaki uvelicheniy font-size tolko cvet*/
-    /*font-size: 16px;*/
 }
 
 .content{
@@ -443,8 +347,6 @@ a{
     padding: 9px 19px;
     color: #fff;
     text-decoration: none;
-
-    /* dlya animaciya*/
     transition: color .3s ease, background-color .3s ease;
 }
 
@@ -511,6 +413,8 @@ a{
 
 #icon-user:hover{
     color: #e7e7e7;
+    transform: scale(1.1);
+    transition: all .3s ease-in;
 }
 
 .first-div-panel{
@@ -560,6 +464,8 @@ a{
 
 #panel-btn:hover{
     color: #e7e7e7;
+    transform: scale(1.1);
+    transition: all .3s ease-in;
 }
 
 #panel-btn i {
@@ -608,6 +514,12 @@ a{
     float: left;
     display: block;
     margin-right: 10px;
+
+}
+
+.contacts figure img:hover{
+    transform: scale(1.1);
+    transition: all .3s ease-in;
 }
 
 .contacts figcaption{
@@ -687,7 +599,7 @@ a{
     margin-top: 20px;
     text-align: center;
     border: none;
-    cursor: pointer;
+    cursor: pointer;   
 }
 
 #send:focus{
@@ -700,6 +612,8 @@ a{
 
 #send:hover{
     color: #e7e7e7;
+    transform: scale(1.1);
+    transition: all .3s ease-in;    
 }
 
 .last-column{
@@ -770,10 +684,10 @@ a{
     line-height: 40px;
     text-align: center;
 }
+
 #panel input[type="button"]:hover{
     color:#e7e7e7 ;
 }
-
 
 #map-canvas {
     border: 10px solid #202628;
@@ -784,9 +698,7 @@ a{
     padding: 0;
 }
 
-
-footer{
-    /*height: 204px;*/
+footer{    
     background-color: #202628;
     padding: 50px 0;
 }
@@ -794,13 +706,13 @@ footer{
 footer nav ul{
     padding: 0;
     list-style: none;
-
 }
 
 footer nav ul li{
     display: inline-block;
     margin-left: 10px;
 }
+
 footer nav ul li:first-child{
     margin-left: 0;
 }
@@ -886,6 +798,7 @@ footer p span a:hover{
     line-height: 42px;
     text-align: center;
 }
+
 .container_footer{
     width: 100%;
 }
@@ -910,7 +823,7 @@ footer p span a:hover{
 
 
 
-/*---------media-------------*/
+/*--------media-queries------------*/
 
 @media screen and (max-width: 804px) {
     #logo {
@@ -950,7 +863,6 @@ footer p span a:hover{
         float: none;
     }
 
-
     .mainHeader nav ul li {
         text-align: center;
         display: block;
@@ -959,7 +871,6 @@ footer p span a:hover{
     }
 
     .mainHeader nav a:hover { background-color: #e84c3d; }
-
 
     .quote{   
         font-size: 0.5em;
@@ -1009,8 +920,7 @@ footer p span a:hover{
         font-size: 1.5em;    
     }
 
-
-    /*SECTION*/
+    /*-----------------SECTION---------------*/
 
     .section {
         width: 100%;   
@@ -1062,9 +972,7 @@ footer p span a:hover{
         margin-bottom: 0;
     }
 
-    /*PANEL*/
-
-
+    /*--------------PANEL----------------*/
     .panel{
         height: auto;
         margin-top: 30px;
@@ -1109,9 +1017,7 @@ footer p span a:hover{
         margin-top: 15px;      
     }
 
-
-
-    /*CONTACTS*/
+    /*--------------CONTACTS-------------*/
     
     .contacts{
         margin-top: 40px;
@@ -1150,7 +1056,7 @@ footer p span a:hover{
         margin: 0;
     }
 
-    /*MAP API*/
+    /*-----------------MAP-API---------------*/
 
     .map{
         margin-top: 20px;
@@ -1191,109 +1097,74 @@ footer p span a:hover{
         width: 94%;        
     }
 
-    /*FOOTER*/
+    /*-------------------FOOTER------------------*/
 
     footer{
         background-color: #202628;
-        padding: 25px 0;
+        padding: 10px 0;
     }
-
-    footer nav ul{
-        padding: 0;
-        list-style: none;
-
-    }
-
     footer nav ul li{
-        display: inline-block;
-        margin-left: 10px;
+        background-color: #202628;
+        margin-left: 0;       
+        display: block;
+        width: 100%;
+        text-align: center;        
     }
-    footer nav ul li:first-child{
-        margin-left: 0;
-    }
+
+    footer nav ul li:hover{
+        background-color: #e84c3d;
+    }   
 
     footer nav ul li:not(:last-child):after{
-        content: '/';
-        display: inline-block;
-        margin-left: 10px;
-        color: #515759;
+        content: none;             
     }
 
     footer nav ul li a{
-        font-size: 14px;
-        text-decoration: none;
-        color: #e7e7e7;
+        display: block;
+        width: 100%;       
+        line-height: 40px;  
+
     }
 
     footer nav ul li a:hover{
-        color: #e84c3d;
+        color: #e7e7e7;       
     }
 
     footer p{
         color: #6b7173;
-        font-size: 14px;
+        font-size: 11px;
+        display: block;
+        text-align: center;
     }
 
-    footer p a{
-         color: #6b7173;
-         font-size: 14px;
+    footer p a{         
+         font-size: 11px;
     }
 
-    footer p a:hover{
-        color: #fff;
-    }
-
-    footer p span{
-        color: #e84c3d;
-        font-size: 14px;
+    footer p span{      
+        font-size: 11px;
     }
 
     footer p span a{
-        color: #e84c3d;
-        font-size: 14px;
-    }
-
-    footer p span a:hover{
-        color: #e81c0c;
+        font-size: 11px;
     }
 
     .footer-icons{
-        list-style: none;
         padding: 0;
-        text-align: center;
+        text-align: right;
     }
 
-    .footer-icons li{
-        display: inline-block;
-        margin-left: 10px;
+    .footer-icons li{        
+        margin-left: 5px;
     }
 
-    .footer-icons li a{
-        color: #fff;
-        font-size: 20px;
+    .footer-ic{        
+        width: 35px;
+        height: 35px;        
+        line-height: 35px;  
+        margin: 0;      
     }
 
-    .footer-icons li div:hover{
-        color: #e7e7e7;
-        background: #E63726;
-        transform: scale(1.1);
-        transition: all .3s ease-in;
-    }
-
-    .footer-ic{
-        background-color: #e84c3d;
-        margin: 0 5px;
-        width: 42px;
-        height: 42px;
-        display: block;
-        border-radius: 50px;
-        -moz-border-radius: 50px;
-        -webkit-border-radius: 50px;
-        font-size: 20px;
-        color: #fff;
-        line-height: 42px;
-        text-align: center;
-    }
     .container_footer{
         width: 100%;
     }
@@ -1306,17 +1177,6 @@ footer p span a:hover{
     .footer-last-block{
         float: none;
     }
-
-    .footer::after {
-        content: '';
-        display: block;
-        clear: both;
-        visibility: hidden;
-        height: 0;
-    }
-
-   
-
 }
 
 
